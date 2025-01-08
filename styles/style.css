@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.open-sans-normal{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: 'wdth' 100;
+}
+/* header section start */
+.header{
+    background-image: url('/images/developer.png'), url('/images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    margin-bottom: 110px;
+}
+/* shared style */
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+/* nav styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+    padding: 50px 0;
+}
+.nav-title{
+    font-size: 45px;
+    font-weight: 800;
+    cursor: pointer;
+}
+.text_primary{
+    color: #FD6E0A;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+    cursor: pointer;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.dark-2{
+    color: #474747;
+}
+.btnPrimary{
+    background-color: #FD6E0A;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 18px 35px;
+    color: #FFF8F3;
+}
+/* banner start */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+.banner-content{
+    max-width: 580px;
+}
+.banner-title1{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+}
+.banner-title2{
+    font-size: 75px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.banner-description{
+    font-size: 16px;
+    width: 80%;
+    color: #474747;
+    margin-bottom: 20px;
+}
+.btn1{
+    margin: 5px;
+}
+img.mary-profile{
+    width: 580px;
+}
+/* header section end */
+/* main section start here */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about section */
+.about{
+    padding: 130px 150px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 100px;
+}
+.about-title{
+    font-size: 35px;
+    color: #181818;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+p.about-description{
+    width: 90%;
+    font-size: 18px;
+    color: #757575;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin: 0 auto;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.item-title{
+    line-height: 50px;
+    font-weight: 600;
+    color: #757575;
+}
+.item-description{
+    font-weight: bold;
+    color: #161515;
+}
+/* about section end */
