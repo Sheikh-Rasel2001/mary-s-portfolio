@@ -59,6 +59,7 @@ nav ul li a{
     border-radius: 5px;
     padding: 18px 35px;
     color: #FFF8F3;
+    /* cursor: pointer; */
 }
 /* banner start */
 .banner{
@@ -108,7 +109,7 @@ main{
     font-size: 35px;
     color: #181818;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     text-decoration: underline;
 }
 p.about-description{
@@ -134,3 +135,95 @@ p.about-description{
     color: #161515;
 }
 /* about section end */
+/* skill section start */
+.skill-title{
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    color: #181818;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-decoration: underline;
+}
+.skill-description{
+    width: 100%;
+    font-size: 18px;
+    color: #757575;
+    margin: 0 auto;
+    text-align: justify;
+    text-align-last: center;
+}
+.skill-item{
+    display: flex;
+    gap: 24px;
+}
+.skils{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    margin-top: 20px;
+}
+.skill-head{
+    padding: 10px 0;
+}
+.skill-desc{
+    font-size: 16px;
+    color: #757575;
+    margin: 0 auto;
+    text-align: justify;
+    text-align-last: center;
+    line-height: 25px;
+}
+/* skill section end */
+/* resume section start */
+.resume{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.resume-container{
+    display: flex;
+    gap: 25px;
+}
+.resume-title{
+    font-size: 25px;
+    color: darkslategray;
+}
+.resume-column{
+    padding: 10px;
+}
+.resume-view{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.resume-title{
+    padding: 10px 0 0 0;
+}
+.view-title{
+    padding: 10px 0 10px 0;
+}
+.view-sub-title{
+    color: #757575;
+    padding-bottom: 10px;
+}
+.resume-description{
+    padding: 10px;
+    font-size: 16px;
+    text-align: justify;
+    color: #1b1a1a;
+}
+hr{
+    color: #757575;
+}
+.download-cv{
+    background-color: #FD6E0A;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 18px 35px;
+    color: #FFF8F3;
+    margin: 0 auto;
+   display: block;
+   margin: 0 auto;
+}
+/* resume section end */
